@@ -1,0 +1,13 @@
+*{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+}
+
+.galeria{
+    flex-wrap: wrap;
+}
+
+.galeria img{
+    max-width: 300px;
+}

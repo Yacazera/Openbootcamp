@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #ef5ca6;
+    top: 50%;
+    left: 45%;
+    margin: -25px 0 0 -25px;
+}
+
+.contenedor button{
+    padding: 1rem;
+    border-radius: 13.5px;
+    background-color: white;
+    color: blac;
+    border: 2px solid #87ffce;
+    position: fixed;
+}
+
+.contenedor button::after{
+    content: '¡Pasa por encima!';
+}
+
+.contenedor button:hover{
+    background-color: #abf561;
+    color: white;
+}
+
+.contenedor button:hover::after{
+    content: '¡Hecho!';
+    padding: 1.9rem;
+}
